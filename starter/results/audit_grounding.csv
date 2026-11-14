@@ -1,0 +1,16 @@
+﻿strategy,question_id,gold_page,returned_pages,score,reason
+A,q16,17,17 / 16 / 17,2,"Hạng 1, trang 17 nêu ngưỡng đủ 7 tuổi, sự đồng ý của trẻ và của cha, mẹ hoặc người giám hộ, và ngoại lệ Điều 17."
+B,q16,17,17 / 17 / 17,2,"Hạng 1, trang 17 giữ đầy đủ điều kiện, hai bên đồng ý và ngoại lệ Điều 17."
+C,q16,17,17 / 17 / 17,2,"Hạng 1, trang 17 giữ đầy đủ điều kiện, hai bên đồng ý và ngoại lệ Điều 17."
+A,q17,18,18 / 18 / 29,2,"Hạng 1, trang 18 giữ câu yêu cầu nêu lý do nếu thông báo sau 72 giờ."
+B,q17,18,18 / 18 / 18,2,"Hạng 1, trang 18 giữ điều khoản về thông báo vi phạm và lý do nếu thông báo sau 72 giờ."
+C,q17,18,18 / 18 / 18,2,"Hạng 1, trang 18 giữ điều khoản về thông báo vi phạm và lý do nếu thông báo sau 72 giờ."
+A,q18,22,21 / 21 / 22,1,"Hạng 3, trang 22 giữ phần đầu Khoản 4 (bên chuyển thông báo Bộ Công an) nhưng thiếu hình thức, nội dung và mốc sau khi chuyển thành công."
+B,q18,22,21 / 21 / 22,1,"Hạng 1 và 3, trang 21–22, có thông tin liên lạc và Bộ Công an trong ngữ cảnh lập hoặc cập nhật hồ sơ; thiếu quy tắc thông báo sau khi chuyển thành công."
+C,q18,22,21 / 21 / 22,1,"Hạng 1 và 3, trang 21–22, có thông tin liên lạc và Bộ Công an trong ngữ cảnh lập hoặc cập nhật hồ sơ; thiếu quy tắc thông báo sau khi chuyển thành công."
+A,q19,32,32 / 12 / 13,1,"Hạng 1 xác định đúng Mẫu 02, trang 32, nhưng không có trường địa chỉ trụ sở; hạng 3 chỉ là quy định chung."
+B,q19,32,32 / 13 / 12,1,"Hạng 1 xác định đúng Mẫu 02, trang 32, nhưng thiếu trường địa chỉ trụ sở."
+C,q19,32,32 / 32 / 32,1,"Cả ba chunk đúng Mẫu 02, trang 32, nhưng đều thiếu trường địa chỉ trụ sở."
+A,q20,34,18 / 18 / 35,0,Trang 18 nói tới nội dung thông báo vi phạm và trang 35 là Mẫu 04. Không có trường được hỏi trong Mẫu 03.
+B,q20,34,18 / 18 / 5,0,Trang 18 và trang 5 chỉ có điều khoản trong thân Nghị định. Không có trường được hỏi trong Mẫu 03.
+C,q20,34,34 / 33 / 33,2,"Hạng 1, trang 34 của Mẫu 03, có liền nhau hai trường Hậu quả xảy ra và Biện pháp áp dụng."

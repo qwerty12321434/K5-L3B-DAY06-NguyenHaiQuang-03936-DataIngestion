@@ -1,0 +1,31 @@
+﻿strategy,page,printed_page,anchor_offset,article,clause,chunk_id,score,reason
+A,1,3,703,1,1,A:nd-13-2023-nd-cp:1:450:950:f98e0a450dd9662f,1,Khoản 1 còn đủ nghĩa nhưng chunk mở giữa phần căn cứ và dừng ở một đối tượng chưa ghi đủ.
+A,2,4,0,1,2,A:nd-13-2023-nd-cp:2:0:500:534be427d9dbd7b5,1,"Điểm d đứng riêng, thiếu câu giới thiệu đối tượng áp dụng; cuối chunk còn cắt giữa chữ."
+A,3,5,0,2,4,A:nd-13-2023-nd-cp:3:0:500:17f4ec208a7c1586,1,Có định nghĩa nhưng danh sách kết thúc giữa từ ở điểm đ.
+A,4,6,0,2,8,A:nd-13-2023-nd-cp:4:0:500:b19c6565e14447fa,1,Khoản 8 rõ nhưng chunk kết thúc giữa định nghĩa ở Khoản 11.
+A,5,7,42,3,1,A:nd-13-2023-nd-cp:5:0:500:822e91566264b435,1,Giữ tiêu đề và các nguyên tắc đầu tiên nhưng cắt giữa câu của Khoản 4.
+A,6,8,0,5,2,A:nd-13-2023-nd-cp:6:0:500:4b2d1a91eea42845,1,Các nhiệm vụ đọc được nhưng thiếu chủ thể quản lý từ trang trước và bị cắt ở Khoản 6.
+A,7,9,0,7,4,A:nd-13-2023-nd-cp:7:0:500:f224b5c78e3e4b85,1,"Mở bằng nhiệm vụ tiếp nối thiếu tiêu đề Điều 7, chuyển sang Điều 8 và dừng ở mệnh đề chưa hết."
+A,8,10,0,9,4,A:nd-13-2023-nd-cp:8:0:500:bc0a43fa426550db,1,Quyền rút lại sự đồng ý rõ nhưng chunk kết thúc giữa quy định về quyền hạn chế xử lý.
+A,9,11,0,9,11,A:nd-13-2023-nd-cp:9:0:500:f8eaa886b4e13246,1,Quyền tự bảo vệ đọc được nhưng chunk chuyển Điều và cắt giữa Khoản 3 của Điều 10.
+A,10,12,0,11,4,A:nd-13-2023-nd-cp:10:0:500:8cf3d028b34aa695,1,Khoản về chọn mục đích đọc được nhưng chunk kết thúc giữa câu ở Khoản 7.
+B,1,3,703,1,1,B:nd-13-2023-nd-cp:1:655:1027:037254e182059b1c,2,"Có tiêu đề Điều 1, giữ trọn Khoản 1 và các điểm hiện trên trang."
+B,2,4,0,1,2,B:nd-13-2023-nd-cp:2:0:127:6e709ebabc09d016,1,Giữ nguyên điểm d nhưng thiếu câu giới thiệu đối tượng áp dụng ở trang PDF 1.
+B,3,5,0,2,4,B:nd-13-2023-nd-cp:3:0:468:d76c5e4c865c057a,2,"Định nghĩa rõ chủ thể, các điểm được đưa vào đều trọn ý."
+B,4,6,0,2,8,B:nd-13-2023-nd-cp:4:0:430:82ac26a900809873,2,Ba định nghĩa ở Khoản 8–10 đều đủ câu và hiểu độc lập.
+B,5,7,42,3,1,B:nd-13-2023-nd-cp:5:0:440:93495b713fe16653,2,Có tiêu đề Điều 3 và giữ trọn các nguyên tắc ở Khoản 1–3.
+B,6,8,0,5,2,B:nd-13-2023-nd-cp:6:0:494:677fa6ee34270234,1,Khoản 2–5 đủ câu nhưng thiếu tiêu đề Điều 5 để biết đây là nhiệm vụ quản lý nhà nước.
+B,7,9,0,7,4,B:nd-13-2023-nd-cp:7:0:182:d55eca0ddd5aab1c,1,Khoản 4–5 đủ câu nhưng thiếu ngữ cảnh hợp tác quốc tế ở tiêu đề Điều 7.
+B,8,10,0,9,4,B:nd-13-2023-nd-cp:8:0:388:1d93e1abeb378a75,2,"Quyền rút lại, quyền xóa và phần quyền hạn chế đều có nhãn và các câu được giữ trọn."
+B,9,11,0,9,11,B:nd-13-2023-nd-cp:9:0:262:75d3ac885746a002,2,"Quyền tự bảo vệ có nhãn, chủ thể, lựa chọn và căn cứ trong cùng đoạn."
+B,10,12,0,11,4,B:nd-13-2023-nd-cp:10:0:483:5eedc2e0d1327402,2,"Khoản 4–6 đều hoàn chỉnh, nêu rõ sự đồng ý và cách thể hiện."
+C,1,3,703,1,1,B:nd-13-2023-nd-cp:1:655:1027:037254e182059b1c,2,"Có tiêu đề Điều 1, giữ trọn Khoản 1 và các điểm hiện trên trang."
+C,2,4,0,1,2,B:nd-13-2023-nd-cp:2:0:127:6e709ebabc09d016,1,Giữ nguyên điểm d nhưng thiếu câu giới thiệu đối tượng áp dụng ở trang PDF 1.
+C,3,5,0,2,4,B:nd-13-2023-nd-cp:3:0:468:d76c5e4c865c057a,2,"Định nghĩa rõ chủ thể, các điểm được đưa vào đều trọn ý."
+C,4,6,0,2,8,B:nd-13-2023-nd-cp:4:0:430:82ac26a900809873,2,Ba định nghĩa ở Khoản 8–10 đều đủ câu và hiểu độc lập.
+C,5,7,42,3,1,B:nd-13-2023-nd-cp:5:0:440:93495b713fe16653,2,Có tiêu đề Điều 3 và giữ trọn các nguyên tắc ở Khoản 1–3.
+C,6,8,0,5,2,B:nd-13-2023-nd-cp:6:0:494:677fa6ee34270234,1,Khoản 2–5 đủ câu nhưng thiếu tiêu đề Điều 5 để biết đây là nhiệm vụ quản lý nhà nước.
+C,7,9,0,7,4,B:nd-13-2023-nd-cp:7:0:182:d55eca0ddd5aab1c,1,Khoản 4–5 đủ câu nhưng thiếu ngữ cảnh hợp tác quốc tế ở tiêu đề Điều 7.
+C,8,10,0,9,4,B:nd-13-2023-nd-cp:8:0:388:1d93e1abeb378a75,2,"Quyền rút lại, quyền xóa và phần quyền hạn chế đều có nhãn và các câu được giữ trọn."
+C,9,11,0,9,11,B:nd-13-2023-nd-cp:9:0:262:75d3ac885746a002,2,"Quyền tự bảo vệ có nhãn, chủ thể, lựa chọn và căn cứ trong cùng đoạn."
+C,10,12,0,11,4,B:nd-13-2023-nd-cp:10:0:483:5eedc2e0d1327402,2,"Khoản 4–6 đều hoàn chỉnh, nêu rõ sự đồng ý và cách thể hiện."

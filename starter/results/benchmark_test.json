@@ -1,0 +1,50 @@
+{
+  "split": "test",
+  "retrieved_at": "2026-11-14T03:53:37.302898+00:00",
+  "snapshot": {
+    "benchmark_sha256": "4b8ce20f4645951f6fc05780c80169d9b8fe953c8d2340b1f55eba9bdd4a823f",
+    "corpus_sha256": "058e269a977e33a03906ecb499fa15094d080c0caed1463539aa38909581f495",
+    "chunks_sha256": "e8dd1e1c889f5211d48722dcdca7e0c21a1a0d9db58110ddf6a89cdfd16b7e65",
+    "ingestion_completed_at": "2026-11-14T03:40:19.746842+00:00",
+    "chunking": {
+      "A": {
+        "size": 500,
+        "overlap": 50
+      },
+      "B": {
+        "max_size": 500
+      }
+    },
+    "model_digest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+    "query_instruction": "Retrieve passages from the Vietnamese personal data protection decree and its forms that answer the question.",
+    "top_k": 3
+  },
+  "scored_at": "2026-11-14T03:57:27.844231+00:00",
+  "selected_on_dev": "C",
+  "strategies": {
+    "A": {
+      "queries": 5,
+      "hit_at_1": 2,
+      "hit_at_3": 2,
+      "retrieval_median_ms": 1.272887999220984,
+      "filter_compliant": 0,
+      "filter_queries": 2
+    },
+    "B": {
+      "queries": 5,
+      "hit_at_1": 2,
+      "hit_at_3": 2,
+      "retrieval_median_ms": 1.3406080006461707,
+      "filter_compliant": 0,
+      "filter_queries": 2
+    },
+    "C": {
+      "queries": 5,
+      "hit_at_1": 3,
+      "hit_at_3": 3,
+      "retrieval_median_ms": 1.300930000070366,
+      "filter_compliant": 2,
+      "filter_queries": 2
+    }
+  }
+}
