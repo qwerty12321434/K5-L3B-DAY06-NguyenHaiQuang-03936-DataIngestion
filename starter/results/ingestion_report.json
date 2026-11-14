@@ -1,0 +1,245 @@
+{
+  "completed_at": "2026-11-14T03:40:19.746842+00:00",
+  "corpus_sha256": "058e269a977e33a03906ecb499fa15094d080c0caed1463539aa38909581f495",
+  "page_count": 36,
+  "chunking": {
+    "A": {
+      "size": 500,
+      "overlap": 50
+    },
+    "B": {
+      "max_size": 500
+    }
+  },
+  "embedding": {
+    "source_model": "Qwen/Qwen3-Embedding-0.6B",
+    "provider": "Ollama local",
+    "model": "qwen3-embedding:0.6b",
+    "model_digest": "ac6da0dfba84a81fdbfbaf330198c33cd77c4cdfc53e8bc50eb581914a15621d",
+    "quantization": "Q8_0",
+    "ollama_version": "0.40.16",
+    "dimensions": 1024,
+    "batch_size": 16,
+    "warmup_seconds": 4.667277,
+    "query_instruction": "Retrieve passages from the Vietnamese personal data protection decree and its forms that answer the question."
+  },
+  "storage": {
+    "postgres": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector": "0.8.7",
+    "table": "day6_chunks",
+    "metric": "cosine",
+    "search": "exact"
+  },
+  "strategies": {
+    "A": {
+      "chunk_count": 163,
+      "characters_total": 73002,
+      "characters_per_chunk": {
+        "min": 66,
+        "median": 500,
+        "max": 500
+      },
+      "chunk_seconds": 0.00109,
+      "embedding_seconds": 2.593713,
+      "api_cost": 0,
+      "upsert_seconds": 0.079031,
+      "ingest_seconds": 2.673834
+    },
+    "B": {
+      "chunk_count": 190,
+      "characters_total": 66652,
+      "characters_per_chunk": {
+        "min": 58,
+        "median": 378.5,
+        "max": 500
+      },
+      "chunk_seconds": 0.003425,
+      "embedding_seconds": 2.860933,
+      "api_cost": 0,
+      "upsert_seconds": 0.078838,
+      "ingest_seconds": 2.943196
+    },
+    "C": {
+      "reuses_index": "B",
+      "chunk_count": 190,
+      "characters_total": 66652,
+      "characters_per_chunk": {
+        "min": 58,
+        "median": 378.5,
+        "max": 500
+      },
+      "additional_ingest_seconds": 0,
+      "api_cost": 0
+    }
+  },
+  "reingest": {
+    "before": {
+      "A": 163,
+      "B": 190
+    },
+    "after": {
+      "A": 163,
+      "B": 190
+    },
+    "reused_vectors": true
+  },
+  "smoke_test": {
+    "question": "Trong phiếu yêu cầu cung cấp dữ liệu, ghi cách nhận hồ sơ ở mục nào?",
+    "filter_c": {
+      "section": "phu_luc",
+      "form_number": "02"
+    },
+    "top_3": {
+      "A": [
+        {
+          "chunk_id": "A:nd-13-2023-nd-cp:12:1800:2009:df346ff384ba1995",
+          "document_id": "nd-13-2023-nd-cp",
+          "source": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2023-nd-cp-39228.htm",
+          "page": 12,
+          "text": "ử, dịch vụ bưu chính, fax đến Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân.\n6. Phiếu yêu cầu cung cấp dữ liệu cá nhân phải được thể hiện bằng tiếng Việt gồm các nội dung chính sau đây:",
+          "metadata": {
+            "end": 2009,
+            "start": 1800,
+            "section": "than_nghi_dinh",
+            "printed_page": 14,
+            "article_numbers": [
+              14
+            ]
+          },
+          "score": 0.7302582501155145
+        },
+        {
+          "chunk_id": "A:nd-13-2023-nd-cp:12:1350:1850:ced1431a3995e4d9",
+          "document_id": "nd-13-2023-nd-cp",
+          "source": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2023-nd-cp-39228.htm",
+          "page": 12,
+          "text": "m hướng dẫn tổ chức, cá nhân yêu cầu điền các nội dung vào Phiếu yêu cầu cung cấp dữ liệu cá nhân.\nTrường hợp tổ chức, cá nhân yêu cầu cung cấp thông tin không biết chữ hoặc bị khuyết tật không thể viết yêu cầu thì người tiếp nhận yêu cầu cung cấp thông tin có trách nhiệm giúp điền các nội dung vào Phiếu yêu cầu cung cấp dữ liệu cá nhân;\nb) Gửi Phiếu yêu cầu cung cấp dữ liệu cá nhân theo Mẫu số 01, 02 tại Phụ lục của Nghị định này qua mạng điện tử, dịch vụ bưu chính, fax đến Bên Kiểm soát dữ liệ",
+          "metadata": {
+            "end": 1850,
+            "start": 1350,
+            "section": "than_nghi_dinh",
+            "printed_page": 14,
+            "article_numbers": [
+              14
+            ]
+          },
+          "score": 0.712567660977842
+        },
+        {
+          "chunk_id": "A:nd-13-2023-nd-cp:31:0:500:62a4196cab9c9cb5",
+          "document_id": "nd-13-2023-nd-cp",
+          "source": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2023-nd-cp-39228.htm",
+          "page": 31,
+          "text": "Mẫu số 01\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n.........., ngày...... tháng...... năm......\nPHIẾU YÊU CẦU CUNG CẤP DỮ LIỆU CÁ NHÂN\n(Dành cho cá nhân)\nKính gửi:..................................................\n1. Họ, tên cá nhân yêu cầu cung cấp dữ liệu cá nhân:..........................................\n..............................................................................................................................\n2. Người đại diện/Người giám hộ1:.........",
+          "metadata": {
+            "end": 500,
+            "start": 0,
+            "section": "phu_luc",
+            "form_number": "01",
+            "printed_page": 33
+          },
+          "score": 0.7041390076181524
+        }
+      ],
+      "B": [
+        {
+          "chunk_id": "B:nd-13-2023-nd-cp:12:1690:2009:9b7a83430fea55fc",
+          "document_id": "nd-13-2023-nd-cp",
+          "source": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2023-nd-cp-39228.htm",
+          "page": 12,
+          "text": "b) Gửi Phiếu yêu cầu cung cấp dữ liệu cá nhân theo Mẫu số 01, 02 tại Phụ lục của Nghị định này qua mạng điện tử, dịch vụ bưu chính, fax đến Bên Kiểm soát dữ liệu cá nhân, Bên Kiểm soát và xử lý dữ liệu cá nhân.\n6. Phiếu yêu cầu cung cấp dữ liệu cá nhân phải được thể hiện bằng tiếng Việt gồm các nội dung chính sau đây:",
+          "metadata": {
+            "end": 2009,
+            "start": 1690,
+            "section": "than_nghi_dinh",
+            "printed_page": 14,
+            "article_numbers": [
+              14
+            ]
+          },
+          "score": 0.7416952789034507
+        },
+        {
+          "chunk_id": "B:nd-13-2023-nd-cp:31:0:458:d8ae1bd10991521a",
+          "document_id": "nd-13-2023-nd-cp",
+          "source": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2023-nd-cp-39228.htm",
+          "page": 31,
+          "text": "Mẫu số 01\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n.........., ngày...... tháng...... năm......\nPHIẾU YÊU CẦU CUNG CẤP DỮ LIỆU CÁ NHÂN\n(Dành cho cá nhân)\nKính gửi:..................................................\n1. Họ, tên cá nhân yêu cầu cung cấp dữ liệu cá nhân:..........................................\n..............................................................................................................................\n",
+          "metadata": {
+            "end": 458,
+            "start": 0,
+            "section": "phu_luc",
+            "form_number": "01",
+            "printed_page": 33
+          },
+          "score": 0.696411770368533
+        },
+        {
+          "chunk_id": "B:nd-13-2023-nd-cp:12:1313:1690:6362f5e65d0a1b3d",
+          "document_id": "nd-13-2023-nd-cp",
+          "source": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2023-nd-cp-39228.htm",
+          "page": 12,
+          "text": "Người tiếp nhận yêu cầu có trách nhiệm hướng dẫn tổ chức, cá nhân yêu cầu điền các nội dung vào Phiếu yêu cầu cung cấp dữ liệu cá nhân.\nTrường hợp tổ chức, cá nhân yêu cầu cung cấp thông tin không biết chữ hoặc bị khuyết tật không thể viết yêu cầu thì người tiếp nhận yêu cầu cung cấp thông tin có trách nhiệm giúp điền các nội dung vào Phiếu yêu cầu cung cấp dữ liệu cá nhân;\n",
+          "metadata": {
+            "end": 1690,
+            "start": 1313,
+            "section": "than_nghi_dinh",
+            "printed_page": 14,
+            "article_numbers": [
+              14
+            ]
+          },
+          "score": 0.6952212736670998
+        }
+      ],
+      "C": [
+        {
+          "chunk_id": "B:nd-13-2023-nd-cp:32:905:1369:012757419bc46817",
+          "document_id": "nd-13-2023-nd-cp",
+          "source": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2023-nd-cp-39228.htm",
+          "page": 32,
+          "text": "5. Số điện thoại27.........................; Fax...............................; E-mail:......................\n6. Dữ liệu cá nhân yêu cầu cung cấp:...................................................................\n7. Mục đích yêu cầu cung cấp:..............................................................................\n8. Yêu cầu cung cấp dữ liệu cá nhân lần thứ:\na) Lần đầu\nb) Khác:......... (ghi rõ số lần đã yêu cầu cung cấp thông tin\ncó nội dung nêu trên)\n",
+          "metadata": {
+            "end": 1369,
+            "start": 905,
+            "section": "phu_luc",
+            "form_number": "02",
+            "printed_page": 34
+          },
+          "score": 0.6555633289986186
+        },
+        {
+          "chunk_id": "B:nd-13-2023-nd-cp:32:0:484:b8d013d0ff06befa",
+          "document_id": "nd-13-2023-nd-cp",
+          "source": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2023-nd-cp-39228.htm",
+          "page": 32,
+          "text": "Mẫu số 02\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n.........., ngày...... tháng...... năm......\nPHIẾU YÊU CẦU CUNG CẤP DỮ LIỆU CÁ NHÂN\n(Dành cho tổ chức, doanh nghiệp)\nKính gửi:...............................................\n1. Tên tổ chức, doanh nghiệp:...............................................................................\n....................................................................................... .......................................\n",
+          "metadata": {
+            "end": 484,
+            "start": 0,
+            "section": "phu_luc",
+            "form_number": "02",
+            "printed_page": 34
+          },
+          "score": 0.5792129166672636
+        },
+        {
+          "chunk_id": "B:nd-13-2023-nd-cp:32:1369:1791:0734b9d5bacf0d01",
+          "document_id": "nd-13-2023-nd-cp",
+          "source": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2023-nd-cp-39228.htm",
+          "page": 32,
+          "text": "9. Số lượng bản3:8:...................... ............................................................................\n10. Phương thức nhận văn bản, hồ sơ, tài liệu:\n□ Nhận tại nơi yêu cầu cung cấp thông tin\n□ Nhận qua bưu điện (ghi rõ địa chỉ nhận):.........................................................\n□ Fax (ghi rõ số fax):...........................................................................................\n",
+          "metadata": {
+            "end": 1791,
+            "start": 1369,
+            "section": "phu_luc",
+            "form_number": "02",
+            "printed_page": 34
+          },
+          "score": 0.5630748908325695
+        }
+      ]
+    },
+    "c_without_filter_matches_b": true
+  }
+}

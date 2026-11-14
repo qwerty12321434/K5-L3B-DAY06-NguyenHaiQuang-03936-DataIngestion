@@ -1,0 +1,7 @@
+2026-11-14 03:38:12,616 INFO Embedding A: 163 chunks
+2026-11-14 03:38:30,563 INFO Embedding B: 190 chunks
+2026-11-14 03:38:33,832 INFO Ingestion OK. Stored {'A': 163, 'B': 190}. C reuses B. See results/ingestion_report.json.
+2026-11-14 03:40:09,093 INFO Warming up qwen3-embedding:0.6b before timing ingest
+2026-11-14 03:40:13,762 INFO Embedding A: 163 chunks
+2026-11-14 03:40:16,358 INFO Embedding B: 190 chunks
+2026-11-14 03:40:19,753 INFO Ingestion OK. Stored {'A': 163, 'B': 190}. C reuses B. See results/ingestion_report.json.

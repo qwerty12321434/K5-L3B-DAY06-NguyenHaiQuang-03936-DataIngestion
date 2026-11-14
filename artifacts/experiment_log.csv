@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,cắt cố định theo trang,500 ký tự,50 ký tự,nguồn; trang PDF; trang Công báo; section; form_number; vị trí ký tự,tắt,qwen3-embedding:0.6b (Ollama Q8_0 1024 chiều),Overlap giúp giữ đoạn qua ranh giới nhưng có thể cắt giữa từ hoặc điều khoản.,,,,,
+B,theo trang và ranh giới Điều hoặc đoạn trong Mẫu,giới hạn 500 ký tự,0,như A,tắt,qwen3-embedding:0.6b (Ollama Q8_0 1024 chiều),Giữ trọn Điều hoặc đoạn khi có thể và có thể cải thiện độ mạch lạc.,,,,,
+C,dùng index của B,giới hạn 500 ký tự,0,như B,section và form_number khi được cung cấp,qwen3-embedding:0.6b (Ollama Q8_0 1024 chiều),Filter đúng phạm vi giúp giảm kết quả từ mẫu khác có nội dung tương tự.,,,,,Dùng chung chunk và vector với B
