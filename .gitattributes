@@ -1,0 +1,4 @@
+# Preserve the byte hashes recorded in the frozen benchmark snapshot.
+benchmark/questions.jsonl -text
+starter/results/corpus_pages.jsonl -text
+starter/results/chunks.jsonl -text

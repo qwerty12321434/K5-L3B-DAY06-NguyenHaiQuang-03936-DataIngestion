@@ -1,0 +1,466 @@
+{
+  "source_id": "nd-13-2023-nd-cp",
+  "title": "Nghị định số 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân",
+  "source_path_or_url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-13-2023-nd-cp-39228.htm",
+  "local_path": "starter/data/2023_685 + 686_13-2023-NĐ-CP.pdf",
+  "publication": "Công báo số 685 + 686, ngày 30-04-2023",
+  "accessed_at": "2026-11-14",
+  "license_or_permission": "Bản Công báo được công bố công khai. Dùng bản tải về cho bài thực hành. Chưa xác minh quyền tái phân phối bản PDF; cung cấp liên kết Công báo cho người chấm.",
+  "sha256": "5b026143b56779199603a164260cc76533a816b9c851a4c769e16a55ef7d6e6f",
+  "parser": {
+    "name": "pypdf",
+    "version": "6.21.4",
+    "mode": "layout"
+  },
+  "physical_page_count": 37,
+  "content_page_count": 36,
+  "page_count_rule": "Tính trang PDF 1–29 (thân Nghị định) và 31–37 (nội dung biểu mẫu). Trang 30 là danh mục biểu mẫu. Trang rỗng hoặc lỗi trích xuất không được tính.",
+  "pages": [
+    {
+      "page": 1,
+      "printed_page": 3,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1027,
+      "status": "ok",
+      "article_numbers": [
+        1
+      ]
+    },
+    {
+      "page": 2,
+      "printed_page": 4,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1514,
+      "status": "ok",
+      "article_numbers": [
+        1,
+        2
+      ]
+    },
+    {
+      "page": 3,
+      "printed_page": 5,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1866,
+      "status": "ok",
+      "article_numbers": [
+        2
+      ]
+    },
+    {
+      "page": 4,
+      "printed_page": 6,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1933,
+      "status": "ok",
+      "article_numbers": [
+        2
+      ]
+    },
+    {
+      "page": 5,
+      "printed_page": 7,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1915,
+      "status": "ok",
+      "article_numbers": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "page": 6,
+      "printed_page": 8,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1722,
+      "status": "ok",
+      "article_numbers": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "page": 7,
+      "printed_page": 9,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1270,
+      "status": "ok",
+      "article_numbers": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "page": 8,
+      "printed_page": 10,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1670,
+      "status": "ok",
+      "article_numbers": [
+        9
+      ]
+    },
+    {
+      "page": 9,
+      "printed_page": 11,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1531,
+      "status": "ok",
+      "article_numbers": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "page": 10,
+      "printed_page": 12,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1931,
+      "status": "ok",
+      "article_numbers": [
+        11,
+        12
+      ]
+    },
+    {
+      "page": 11,
+      "printed_page": 13,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1769,
+      "status": "ok",
+      "article_numbers": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "page": 12,
+      "printed_page": 14,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 2009,
+      "status": "ok",
+      "article_numbers": [
+        14
+      ]
+    },
+    {
+      "page": 13,
+      "printed_page": 15,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 2000,
+      "status": "ok",
+      "article_numbers": [
+        14,
+        15
+      ]
+    },
+    {
+      "page": 14,
+      "printed_page": 16,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1943,
+      "status": "ok",
+      "article_numbers": [
+        15,
+        16
+      ]
+    },
+    {
+      "page": 15,
+      "printed_page": 17,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 2025,
+      "status": "ok",
+      "article_numbers": [
+        16,
+        17
+      ]
+    },
+    {
+      "page": 16,
+      "printed_page": 18,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 2065,
+      "status": "ok",
+      "article_numbers": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "page": 17,
+      "printed_page": 19,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 2156,
+      "status": "ok",
+      "article_numbers": [
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "page": 18,
+      "printed_page": 20,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 2008,
+      "status": "ok",
+      "article_numbers": [
+        22,
+        23
+      ]
+    },
+    {
+      "page": 19,
+      "printed_page": 21,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1514,
+      "status": "ok",
+      "article_numbers": [
+        23,
+        24
+      ]
+    },
+    {
+      "page": 20,
+      "printed_page": 22,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1984,
+      "status": "ok",
+      "article_numbers": [
+        24
+      ]
+    },
+    {
+      "page": 21,
+      "printed_page": 23,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1951,
+      "status": "ok",
+      "article_numbers": [
+        24,
+        25
+      ]
+    },
+    {
+      "page": 22,
+      "printed_page": 24,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 2012,
+      "status": "ok",
+      "article_numbers": [
+        25
+      ]
+    },
+    {
+      "page": 23,
+      "printed_page": 25,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1559,
+      "status": "ok",
+      "article_numbers": [
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "page": 24,
+      "printed_page": 26,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1791,
+      "status": "ok",
+      "article_numbers": [
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "page": 25,
+      "printed_page": 27,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1626,
+      "status": "ok",
+      "article_numbers": [
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "page": 26,
+      "printed_page": 28,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1774,
+      "status": "ok",
+      "article_numbers": [
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "page": 27,
+      "printed_page": 29,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1804,
+      "status": "ok",
+      "article_numbers": [
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "page": 28,
+      "printed_page": 30,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1708,
+      "status": "ok",
+      "article_numbers": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "page": 29,
+      "printed_page": 31,
+      "section": "than_nghi_dinh",
+      "included": true,
+      "normalized_characters": 1118,
+      "status": "ok",
+      "corrections": [
+        "aky]"
+      ],
+      "article_numbers": [
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "page": 30,
+      "printed_page": 32,
+      "section": "phu_luc",
+      "included": false,
+      "normalized_characters": 482,
+      "status": "ok"
+    },
+    {
+      "page": 31,
+      "printed_page": 33,
+      "section": "phu_luc",
+      "included": true,
+      "normalized_characters": 2570,
+      "status": "ok",
+      "form_number": "01"
+    },
+    {
+      "page": 32,
+      "printed_page": 34,
+      "section": "phu_luc",
+      "included": true,
+      "normalized_characters": 2362,
+      "status": "ok",
+      "form_number": "02"
+    },
+    {
+      "page": 33,
+      "printed_page": 35,
+      "section": "phu_luc",
+      "included": true,
+      "normalized_characters": 2197,
+      "status": "ok",
+      "corrections": [
+        "..................110 gửi"
+      ],
+      "form_number": "03"
+    },
+    {
+      "page": 34,
+      "printed_page": 36,
+      "section": "phu_luc",
+      "included": true,
+      "normalized_characters": 1221,
+      "status": "ok",
+      "form_number": "03"
+    },
+    {
+      "page": 35,
+      "printed_page": 37,
+      "section": "phu_luc",
+      "included": true,
+      "normalized_characters": 2249,
+      "status": "ok",
+      "corrections": [
+        "..................111 gửi"
+      ],
+      "form_number": "04"
+    },
+    {
+      "page": 36,
+      "printed_page": 38,
+      "section": "phu_luc",
+      "included": true,
+      "normalized_characters": 2565,
+      "status": "ok",
+      "corrections": [
+        "THAY ĐỔI NỘI DUNG HỒ SƠ......1                             12",
+        "..................213 gửi"
+      ],
+      "form_number": "05"
+    },
+    {
+      "page": 37,
+      "printed_page": 39,
+      "section": "phu_luc",
+      "included": true,
+      "normalized_characters": 2293,
+      "status": "ok",
+      "corrections": [
+        "..................114 gửi"
+      ],
+      "form_number": "06"
+    }
+  ]
+}
