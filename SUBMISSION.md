@@ -17,16 +17,16 @@ results/                          # thống kê, trace, nhãn audit, log
 report/individual/<MSSV>_<HoTen>.md
 ```
 
-Mẫu báo cáo: [report/individual/MSSV_HoTen.md](report/individual/MSSV_HoTen.md). `src/` có thể đặt ở root hoặc `starter/src/`; benchmark và dữ liệu thật do học viên tạo. Nếu không được phép nộp dữ liệu gốc hoặc trace chứa nội dung bị hạn chế, cung cấp hướng dẫn truy cập/tái tạo và minh chứng được phép chia sẻ; báo cho người chấm biết cách xác minh.
+Hồ sơ của bài này gồm [thông tin sinh viên](STUDENT.md), [báo cáo cá nhân](report/individual/03936_NguyenHaiQuang.md) và [nhật ký thí nghiệm](artifacts/experiment_log.csv). Mã ở `starter/src/`, kết quả ở [starter/results/](starter/results/benchmark_summary.md). Tải lại PDF từ URL Công báo trong [manifest](data/manifest.json) và đối chiếu SHA-256 theo [hướng dẫn chạy](starter/README.md).
 
 ## Checklist
 
-- [ ] Dữ liệu ≥30 trang nội dung hợp lệ, manifest ghi nguồn, quyền, số trang và quy tắc tính.
-- [ ] ≥20 câu theo [BENCHMARK.md](BENCHMARK.md), có evidence đã kiểm chứng và tách tối thiểu 15 dev / 5 test trước thử nghiệm.
-- [ ] Có embedding model thật và vector store hỗ trợ lưu bền vững, vector search, metadata filter; ghi phiên bản và cấu hình.
-- [ ] Có ba cấu hình, một so sánh thay đúng một yếu tố; cùng model, corpus và benchmark.
-- [ ] Chạy đủ và lưu trace top-3, chỉ số dev/test; ghi chi phí, model và thời gian.
-- [ ] Có audit thủ công và phân tích cả 5 khía cạnh theo GUIDE; ghi giới hạn.
-- [ ] Có lệnh chạy, code, manifest, experiment log và báo cáo cá nhân.
-- [ ] Không có secret, dữ liệu riêng tư hoặc dữ liệu không được phép chia sẻ.
+- [x] Có 36 trang nội dung và manifest ghi nguồn, phạm vi sử dụng, số trang và quy tắc tính.
+- [x] Có 20 câu theo [BENCHMARK.md](BENCHMARK.md), evidence đã đối chiếu và chia 15 dev / 5 test trước thử nghiệm.
+- [x] Có embedding model thật và vector store hỗ trợ lưu bền vững, vector search và metadata filter. Đã ghi phiên bản và cấu hình.
+- [x] Có ba cấu hình dùng cùng model, corpus và benchmark. B và C chỉ khác cách áp dụng filter khi truy xuất.
+- [x] Có trace top-3, chỉ số dev/test, chi phí API, thông tin model và thời gian.
+- [x] Có nhãn theo mẫu và phân tích cả năm khía cạnh theo GUIDE, kèm giới hạn và ghi rõ phần Codex hỗ trợ.
+- [x] Có lệnh chạy, code, manifest, experiment log và báo cáo cá nhân.
+- [x] Bộ tệp chuẩn bị nộp dùng cấu hình mẫu và nguồn Công báo công khai. PDF gốc, `.env` và `.venv` được loại khỏi Git bằng `.gitignore`.
 - [ ] Repo mở được cho người chấm và đã nộp link theo hướng dẫn lớp.
